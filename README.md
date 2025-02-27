@@ -1,6 +1,6 @@
 # My Portfolio Website
 
-[🔗Live Demo🔗](https://kh-rehan-portfolio.vercel.app/)
+[🔗Portfolio Link🔗](https://kh-rehan-portfolio.vercel.app/)
 
 ![Protfolio Website](https://i.postimg.cc/6QXNSnjj/Capture.jpg)
 
