@@ -11,7 +11,7 @@ import "react-pdf/dist/esm/Page/TextLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 // Link for direct download (change the file ID as needed)
-const resumeLink = `https://drive.google.com/uc?export=download&id=1H3Mu6XLFzwCUgN5g15sugycOYLyvRMda`;
+const resumeLink = `https://drive.google.com/file/d/1FwQDvsp497SBG_2i92AxxKi1_uk_1INF/view?usp=drive_link`;
 
 const Resume = () => {
   const [width, setWidth] = useState(1200);
