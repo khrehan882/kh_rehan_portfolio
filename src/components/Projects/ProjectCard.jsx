@@ -35,7 +35,7 @@ const ProjectCard = (props) => {
         }}
       >
         <Card.Title>{props.title}</Card.Title>
-        <Card.Text style={{ textAlign: "justify",fontSize:"15px" }}>
+        <Card.Text style={{ textAlign: "justify", fontSize: "15px" }}>
           {props.description}
         </Card.Text>
         <Button
@@ -76,10 +76,11 @@ const ProjectCard = (props) => {
               bottom: "0px",
             }}
           >
-            <CgWebsite /> &nbsp;
-            {"Demo"}
+            {props.demoIcon ? props.demoIcon : <CgWebsite />} &nbsp;
+            {props.demoText ? props.demoText : "Demo"}
           </Button>
         )}
+
       </Card.Body>
     </Card>
   );

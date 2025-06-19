@@ -8,7 +8,8 @@ import {
   SiMysql,
   SiPhp,
   SiLaravel,
-  SiOpenai // Assuming you're using a generic AI icon for ChatGPT
+  SiReact,
+  SiOpenai
 } from "react-icons/si";
 
 
@@ -32,6 +33,9 @@ const Techstack = () => {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPhp />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiLaravel />

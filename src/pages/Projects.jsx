@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import { FaExternalLinkAlt } from "react-icons/fa";
 import ProjectCard from "../components/Projects/ProjectCard";
 import Particle from "../components/Particle";
 import pg from "../assets/projects/pg.png";
@@ -7,6 +8,9 @@ import project from "../assets/projects/project.jpeg";
 import lift from "../assets/projects/lift.png";
 import kickstart from "../assets/projects/kickstart.png";
 import monmatics from "../assets/projects/monmatics.JPG";
+import mtsol from "../assets/projects/mtsol.PNG";
+import sas from "../assets/projects/sas.PNG";
+import better from "../assets/projects/better.PNG";
 
 const Projects = () => {
   return (
@@ -32,6 +36,19 @@ const Projects = () => {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={better}
+              isBlog={false}
+              title="Bettor Odds"
+              description="Better Odds is a clean and user-friendly betting site designed to present information clearly and efficiently. Developed using HTML, CSS, and Bootstrap, the project features a fully responsive layout that adapts seamlessly across devices. The website includes essential sections such as Features, Pricing, Changelog, and a structured Index page, each crafted with clarity and ease of navigation in mind. The focus was on delivering a modern, visually balanced interface using Bootstrap components while maintaining lightweight performance. The project serves as a straightforward and functional frontend solution for showcasing betting-related content with professionalism."
+              ghLink="https://github.com/khrehan882/Better_Ods.git"
+              demoLink="https://betterodds.vercel.app/"
+              demoText="Demo"
+              demoIcon={<FaExternalLinkAlt />}
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={project}
               isBlog={false}
               title="Restaurent Management System"
@@ -52,11 +69,37 @@ const Projects = () => {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={mtsol}
+              isBlog={false}
+              title="DeepSOl Technologies"
+              description="MustTech Solutions is a technology-driven company specializing in digital transformation and web solutions. As a Frontend Developer, I led the development of their official website, musttechsolutions.com, utilizing a modern React.js framework with a fully component-based architecture. The site features dynamic pages such as Services, Portfolio, About Us, and Contact, each designed with responsiveness and performance in mind. Emphasizing a clean and intuitive UI/UX, I implemented modern design principles and ensured cross-device compatibility for an optimal user experience. Navigation was enhanced through seamless routing using React Router, while functional components and code-splitting techniques were employed to reduce load times and boost overall efficiency."
+              ghLink="https://github.com/khrehan882/Deepsol-Technologies.git"
+              demoLink="https://deepsol-technologies.vercel.app/"
+              demoText="Demo"
+              demoIcon={<FaExternalLinkAlt />}
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={pg}
               isBlog={false}
               title="Hostel Management System"
               description="Introducing HostelHub, a streamlined Hostel Management System built with Core PHP and MySQL, designed to enhance the efficiency of hostel operations while providing a seamless experience for all users. HostelHub caters to three key roles: Students, Hostel Managers, and Administrators, each with specific functionalities to ensure smooth management and effective communication. The Administrator has comprehensive control over the hostel system. With the ability to appoint and manage Hostel Managers, the Admin ensures that each hostel is run efficiently. Students benefit from a user-friendly interface that allows them to access their room information, receive updates from Hostel Managers, and stay informed about any changes or announcements. "
               ghLink="https://github.com/khrehan882/Hostel-Management-System-FYP-.git"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={sas}
+              isBlog={false}
+              title="SAS_Logistics"
+              description="SAS Logistics is a modern logistics-focused landing page designed to showcase the company’s services with clarity and visual appeal. As the sole Frontend Developer on this project, I developed the application using React.js, combining static content with dynamic components to ensure a smooth and engaging browsing experience. The site features a clean, responsive layout optimized for both desktop and mobile users, ensuring accessibility across all devices. With a focus on modularity and scalability, I structured the interface using reusable components to allow for easy future enhancements. The design integrates interactive elements to guide users through the logistics solutions offered, reinforcing credibility and professionalism."
+              ghLink="https://github.com/khrehan882/SAS-Logistics.git"
+              demoLink="https://sas-logistics-iota.vercel.app/"
+              demoText="Demo"
+              demoIcon={<FaExternalLinkAlt />}
             />
           </Col>
 
